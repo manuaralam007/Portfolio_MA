@@ -1,0 +1,325 @@
+# Logfile created on 2026-01-06 23:32:49 +0000 by logger.rb/v1.7.0
+[2026-01-06 23:32:49 +0000 ManuarAlam (7886)] INFO : Starting the New Relic agent version 9.24.0 in "development" environment.
+[2026-01-06 23:32:49 +0000 ManuarAlam (7886)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2026-01-06 23:32:49 +0000 ManuarAlam (7886)] WARN : No configuration file found. Working directory = /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio
+[2026-01-06 23:32:49 +0000 ManuarAlam (7886)] WARN : Looked in these locations (based on defaults): /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml.erb, /home/aamir/.newrelic/newrelic.yml, /home/aamir/newrelic.yml, /home/aamir/.newrelic/newrelic.yml.erb, /home/aamir/newrelic.yml.erb
+[2026-01-06 23:32:49 +0000 ManuarAlam (7886)] INFO : Environment: development
+[2026-01-06 23:32:49 +0000 ManuarAlam (7886)] INFO : No known dispatcher detected.
+[2026-01-06 23:32:49 +0000 ManuarAlam (7886)] INFO : Application: development
+[2026-01-06 23:32:49 +0000 ManuarAlam (7886)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing ActionMailbox instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing ActionMailer instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing base ActiveJob instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing notifications based ActiveJob instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing notifications based Active Record instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing ActiveStorage instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing ActiveSupport instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing New Relic supported ActiveSupportBroadcastLogger instrumentation using Prepend
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing Net:HTTP Wrappers
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing Rails 3+ middleware instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing notifications based Action Cable instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing notifications based Action Controller instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Installing notification based Action View instrumentation
+[2026-01-06 23:33:00 +0000 ManuarAlam (7886)] INFO : Finished instrumentation
+[2026-01-06 23:33:07 +0000 ManuarAlam (7886)] INFO : Doing deferred dependency-detection before Rack startup
+[2026-01-06 23:33:07 +0000 ManuarAlam (7886)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2026-01-06 23:33:07 +0000 ManuarAlam (7886)] INFO : high_security = false
+[2026-01-06 23:33:07 +0000 ManuarAlam (7886)] INFO : security.agent.enabled = false
+[2026-01-06 23:33:29 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-06 23:33:29 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-06 23:33:29 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 15 seconds
+[2026-01-06 23:33:47 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-06 23:33:47 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-06 23:33:47 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 30 seconds
+[2026-01-06 23:34:20 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-06 23:34:20 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-06 23:34:20 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 60 seconds
+[2026-01-06 23:35:23 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-06 23:35:23 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-06 23:35:23 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 120 seconds
+[2026-01-06 23:37:32 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-06 23:37:32 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-06 23:37:32 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 06:52:48 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 06:52:48 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-07 06:52:48 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 06:57:55 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 06:57:55 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-07 06:57:55 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:03:02 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:03:02 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-07 07:03:02 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:08:09 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:08:09 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-07 07:08:09 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:13:16 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:13:16 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-07 07:13:16 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:18:22 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:18:22 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-07 07:18:22 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:23:29 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:23:29 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-07 07:23:29 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:28:35 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:28:35 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-07 07:28:35 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:33:40 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:33:40 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-07 07:33:40 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:38:46 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:38:46 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-07 07:38:46 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:43:51 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:43:51 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-07 07:43:51 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:48:54 +0000 ManuarAlam (7886)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-07 07:48:54 +0000 ManuarAlam (7886)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-07 07:48:54 +0000 ManuarAlam (7886)] INFO : Will re-attempt in 300 seconds
+[2026-01-07 07:53:24 +0000 ManuarAlam (7886)] INFO : Starting agent shutdown
+[2026-01-10 15:19:47 +0000 ManuarAlam (28154)] INFO : Starting the New Relic agent version 9.24.0 in "development" environment.
+[2026-01-10 15:19:47 +0000 ManuarAlam (28154)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2026-01-10 15:19:47 +0000 ManuarAlam (28154)] WARN : No configuration file found. Working directory = /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio
+[2026-01-10 15:19:47 +0000 ManuarAlam (28154)] WARN : Looked in these locations (based on defaults): /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml.erb, /home/aamir/.newrelic/newrelic.yml, /home/aamir/newrelic.yml, /home/aamir/.newrelic/newrelic.yml.erb, /home/aamir/newrelic.yml.erb
+[2026-01-10 15:19:47 +0000 ManuarAlam (28154)] INFO : Environment: development
+[2026-01-10 15:19:47 +0000 ManuarAlam (28154)] INFO : No known dispatcher detected.
+[2026-01-10 15:19:47 +0000 ManuarAlam (28154)] INFO : Application: development
+[2026-01-10 15:19:47 +0000 ManuarAlam (28154)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing ActionMailbox instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing ActionMailer instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing base ActiveJob instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing notifications based ActiveJob instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing notifications based Active Record instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing ActiveStorage instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing ActiveSupport instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing New Relic supported ActiveSupportBroadcastLogger instrumentation using Prepend
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing Net:HTTP Wrappers
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing Rails 3+ middleware instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing notifications based Action Cable instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing notifications based Action Controller instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Installing notification based Action View instrumentation
+[2026-01-10 15:19:53 +0000 ManuarAlam (28154)] INFO : Finished instrumentation
+[2026-01-10 15:19:56 +0000 ManuarAlam (28154)] INFO : Doing deferred dependency-detection before Rack startup
+[2026-01-10 15:19:56 +0000 ManuarAlam (28154)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2026-01-10 15:19:56 +0000 ManuarAlam (28154)] INFO : high_security = false
+[2026-01-10 15:19:56 +0000 ManuarAlam (28154)] INFO : security.agent.enabled = false
+[2026-01-10 15:21:10 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:21:10 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 15:21:10 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 15 seconds
+[2026-01-10 15:21:27 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:21:27 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 15:21:27 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 30 seconds
+[2026-01-10 15:21:58 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:21:58 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 15:21:58 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 60 seconds
+[2026-01-10 15:22:59 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:22:59 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 15:22:59 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 120 seconds
+[2026-01-10 15:25:00 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:25:00 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 15:25:00 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 15:30:01 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:30:01 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 15:30:01 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 15:35:03 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:35:03 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 15:35:03 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 15:40:04 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:40:04 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 15:40:04 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 15:45:05 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:45:05 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 15:45:05 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 15:50:06 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:50:06 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 15:50:06 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 15:55:07 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 15:55:07 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 15:55:07 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:00:08 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:00:08 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 16:00:08 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:05:09 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:05:09 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 16:05:09 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:10:10 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:10:10 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 16:10:10 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:15:12 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:15:12 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 16:15:12 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:20:13 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:20:13 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 16:20:13 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:25:14 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:25:14 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 16:25:14 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:30:15 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:30:15 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 16:30:15 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:35:16 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:35:16 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 16:35:16 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:40:17 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:40:17 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 16:40:17 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:45:18 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:45:18 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 16:45:18 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:50:20 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:50:20 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 16:50:20 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 16:55:21 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 16:55:21 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 16:55:21 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 17:00:22 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 17:00:22 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 17:00:22 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 17:05:23 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 17:05:23 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 17:05:23 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 17:10:24 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 17:10:24 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 17:10:24 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 17:15:25 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 17:15:25 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 17:15:25 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 17:20:27 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 17:20:27 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 17:20:27 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 17:25:28 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 17:25:28 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 17:25:28 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 17:30:29 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 17:30:29 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 17:30:29 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 17:35:30 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 17:35:30 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 17:35:30 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 22:23:36 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 22:23:36 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 22:23:36 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 22:28:37 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 22:28:37 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 22:28:37 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 22:33:38 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 22:33:38 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 22:33:38 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 22:38:39 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 22:38:39 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2026-01-10 22:38:39 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 22:43:41 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 22:43:41 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 22:43:41 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-10 22:48:42 +0000 ManuarAlam (28154)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-10 22:48:42 +0000 ManuarAlam (28154)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-10 22:48:42 +0000 ManuarAlam (28154)] INFO : Will re-attempt in 300 seconds
+[2026-01-11 02:08:14 +0000 ManuarAlam (28154)] INFO : Starting agent shutdown
+[2026-01-12 14:13:33 +0000 ManuarAlam (2217)] INFO : Starting the New Relic agent version 9.24.0 in "development" environment.
+[2026-01-12 14:13:33 +0000 ManuarAlam (2217)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2026-01-12 14:13:33 +0000 ManuarAlam (2217)] WARN : No configuration file found. Working directory = /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio
+[2026-01-12 14:13:33 +0000 ManuarAlam (2217)] WARN : Looked in these locations (based on defaults): /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml.erb, /home/aamir/.newrelic/newrelic.yml, /home/aamir/newrelic.yml, /home/aamir/.newrelic/newrelic.yml.erb, /home/aamir/newrelic.yml.erb
+[2026-01-12 14:13:34 +0000 ManuarAlam (2217)] INFO : Environment: development
+[2026-01-12 14:13:34 +0000 ManuarAlam (2217)] INFO : No known dispatcher detected.
+[2026-01-12 14:13:34 +0000 ManuarAlam (2217)] INFO : Application: development
+[2026-01-12 14:13:34 +0000 ManuarAlam (2217)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing ActionMailbox instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing ActionMailer instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing base ActiveJob instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing notifications based ActiveJob instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing notifications based Active Record instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing ActiveStorage instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing ActiveSupport instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing New Relic supported ActiveSupportBroadcastLogger instrumentation using Prepend
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing Net:HTTP Wrappers
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing Rails 3+ middleware instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing notifications based Action Cable instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing notifications based Action Controller instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Installing notification based Action View instrumentation
+[2026-01-12 14:13:54 +0000 ManuarAlam (2217)] INFO : Finished instrumentation
+[2026-01-12 14:14:06 +0000 ManuarAlam (2217)] INFO : Doing deferred dependency-detection before Rack startup
+[2026-01-12 14:14:06 +0000 ManuarAlam (2217)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2026-01-12 14:14:06 +0000 ManuarAlam (2217)] INFO : high_security = false
+[2026-01-12 14:14:06 +0000 ManuarAlam (2217)] INFO : security.agent.enabled = false
+[2026-01-14 23:26:59 +0000 ManuarAlam (2684)] INFO : Starting the New Relic agent version 9.24.0 in "development" environment.
+[2026-01-14 23:26:59 +0000 ManuarAlam (2684)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2026-01-14 23:26:59 +0000 ManuarAlam (2684)] WARN : No configuration file found. Working directory = /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio
+[2026-01-14 23:26:59 +0000 ManuarAlam (2684)] WARN : Looked in these locations (based on defaults): /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/config/newrelic.yml.erb, /mnt/c/Users/aamir/Desktop/Portfolio_MA/portfolio/newrelic.yml.erb, /home/aamir/.newrelic/newrelic.yml, /home/aamir/newrelic.yml, /home/aamir/.newrelic/newrelic.yml.erb, /home/aamir/newrelic.yml.erb
+[2026-01-14 23:26:59 +0000 ManuarAlam (2684)] INFO : Environment: development
+[2026-01-14 23:26:59 +0000 ManuarAlam (2684)] INFO : No known dispatcher detected.
+[2026-01-14 23:26:59 +0000 ManuarAlam (2684)] INFO : Application: development
+[2026-01-14 23:26:59 +0000 ManuarAlam (2684)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing ActionMailbox instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing ActionMailer instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing base ActiveJob instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing notifications based ActiveJob instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing notifications based Active Record instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing ActiveStorage instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing ActiveSupport instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing New Relic supported ActiveSupportBroadcastLogger instrumentation using Prepend
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing Net:HTTP Wrappers
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing Rails 3+ middleware instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing notifications based Action Cable instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing notifications based Action Controller instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Installing notification based Action View instrumentation
+[2026-01-14 23:27:05 +0000 ManuarAlam (2684)] INFO : Finished instrumentation
+[2026-01-14 23:27:09 +0000 ManuarAlam (2684)] INFO : Doing deferred dependency-detection before Rack startup
+[2026-01-14 23:27:09 +0000 ManuarAlam (2684)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2026-01-14 23:27:09 +0000 ManuarAlam (2684)] INFO : high_security = false
+[2026-01-14 23:27:09 +0000 ManuarAlam (2684)] INFO : security.agent.enabled = false
+[2026-01-14 23:27:31 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:27:31 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:27:31 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 15 seconds
+[2026-01-14 23:27:48 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:27:48 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:27:48 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 30 seconds
+[2026-01-14 23:28:19 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:28:19 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:28:19 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 60 seconds
+[2026-01-14 23:29:21 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:29:21 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:29:21 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 120 seconds
+[2026-01-14 23:31:25 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:31:25 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:31:25 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 300 seconds
+[2026-01-14 23:36:35 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:36:35 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:36:35 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 300 seconds
+[2026-01-14 23:41:44 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:41:44 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:41:44 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 300 seconds
+[2026-01-14 23:46:52 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:46:52 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:46:52 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 300 seconds
+[2026-01-14 23:52:00 +0000 ManuarAlam (2684)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2026-01-14 23:52:00 +0000 ManuarAlam (2684)] ERROR : NewRelic::Agent::ForceRestartException: 401: , restarting.
+[2026-01-14 23:52:00 +0000 ManuarAlam (2684)] INFO : Will re-attempt in 300 seconds
+[2026-01-14 23:52:47 +0000 ManuarAlam (2684)] INFO : Starting agent shutdown
